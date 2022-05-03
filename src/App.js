@@ -39,6 +39,14 @@ class App extends Component {
 
     }
 
+    componentWillMount() {
+        console.log('App componentWillMount')
+    }
+
+    componentDidMount() {
+        console.log('App componentDidMount')
+    }
+
     render() {
         const divStyle = {
             textAlign: 'center'
